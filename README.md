@@ -140,7 +140,9 @@ sorted_US.head(10)
 ```
 
 Just in case you want to get some fancy "College" wine here are the top ten wines pointed 95 or higher. I like a good Riesling and Januik's is top of our list.
+
 <img src="https://cdn.nexternal.com/nhj/images/2015RieslingBacchusNV.jpg" width="200" height="200" />
+
 Here is the wine you would be looking for and with this table you can find wine region which is the Columbia Valley which a map of that region is this,
 <img src="http://winefolly.wpengine.netdna-cdn.com/wp-content/uploads/2017/02/USA-Washington-Wine-Map-Wine-Folly.jpg" width="500" height="500" />
 This wine is starting to be more on the expensive side with a 20 USD price tag, but with a 95 score it is a strong A.
