@@ -4,7 +4,7 @@
 This project requires C++ build tools and Andaconda with numpy, pandas, matplotlib, seaborn, subprocess, and wordcloud installed.
 
 ## Known Problems
-On Github some of the HTML imgs do not display.
+On Github's notebook some of the HTML imgs do not display. Tables do not display in the readme to see the full report go to https://www.kaggle.com/justinminsk/looking-at-wine-by-price-and-points.
 
    # Finding the best 'College' Wine
    
@@ -55,7 +55,7 @@ It is always good to look at distributions, here we are looking at the point dis
 sns.distplot(wine['points'], kde=False);
 #looking at the point distribution 
 ```
-
+![alt text](https://github.com/justinminsk/Project_3_Wine/blob/master/Graphs/pointsBar.png)
 
 Next we look at price distribution, this is pretty bunched up below 100 dollars. 
 
@@ -63,7 +63,7 @@ Next we look at price distribution, this is pretty bunched up below 100 dollars.
 sns.distplot(wine['price'], kde=False);
 #looking at distribution of price
 ```
-
+![alt text](https://github.com/justinminsk/Project_3_Wine/blob/master/Graphs/priceBar.png)
 
 This graph shows points and price in relation to each other. The points show the range of price at each point value. While the line shows that price does increase with the amount of points.
 
@@ -71,6 +71,7 @@ This graph shows points and price in relation to each other. The points show the
 sns.regplot(x='points', y='price', x_estimator=np.mean, data=wine)
 #shows price and points on the same scale
 ```
+![alt text](https://github.com/justinminsk/Project_3_Wine/blob/master/Graphs/pricePointsScatter.png)
 
 ## Breaking the Data up and Adding Points/Price
 
@@ -85,14 +86,13 @@ wine2 = pd.concat([wine, s1], axis = 1)
 #add points by price to wine data
 ```
 
-
 Here is that distribution which is more favorable to the lower pointed wine.
 
 ```python
 sns.distplot(wine2['Points by Price'], kde=False);
 #look at distribution of points divided by price
 ```
-
+![alt text](https://github.com/justinminsk/Project_3_Wine/blob/master/Graphs/pointsByPriceBar.png)
 
 Now as a US citizen it is easier for me to get US wine, I decided to focus on wine made in the US over other countries. I also look at the distribution which looks simlar to the points by price graph above with all of the data.
 
@@ -106,6 +106,8 @@ USwine = USwine.dropna()
 sns.distplot(USwine['Points by Price'], kde=False);
 #look at distribution of wines
 ```
+
+![alt text](https://github.com/justinminsk/Project_3_Wine/blob/master/Graphs/USpointsByPriceBar.png)
 
 ## Top US 'College' Wines
 
@@ -141,7 +143,7 @@ sorted_US.head(10)
 
 Just in case you want to get some fancy "College" wine here are the top ten wines pointed 95 or higher. I like a good Riesling and Januik's is top of our list.
 
-<img src="https://cdn.nexternal.com/nhj/images/2015RieslingBacchusNV.jpg" width="400" height="500" />
+<img src="https://cdn.nexternal.com/nhj/images/2015RieslingBacchusNV.jpg" width="200" height="400" />
 
 Here is the wine you would be looking for and with this table you can find wine region which is the Columbia Valley which a map of that region is this,
 <img src="http://winefolly.wpengine.netdna-cdn.com/wp-content/uploads/2017/02/USA-Washington-Wine-Map-Wine-Folly.jpg" width="500" height="500" />
@@ -190,3 +192,8 @@ plt.axis('off')
 plt.show()
 #show wordcloud
 ```
+
+![alt text](https://github.com/justinminsk/Project_3_Wine/blob/master/Graphs/wordcloud.png)
+
+
+Here we can see that they like to talk about the fruity taste, the blend, and how rich it is. Since this is a list with wines only 80 or above as you can see above most of the words are positive or describing the wines. After you drink some of the wines on this list I think a good next step would be to look at what words they use to describe your favorites and then search for other wines that are fruity, rich, or any other words in the description. That would give you a great starting point to find other great "College" wines.
