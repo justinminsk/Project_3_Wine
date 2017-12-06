@@ -202,3 +202,6 @@ plt.show()
 
 
 Here we can see that they like to talk about the fruity taste, the blend, and how rich it is. Since this is a list with wines only 80 or above as you can see above most of the words are positive or describing the wines. After you drink some of the wines on this list I think a good next step would be to look at what words they use to describe your favorites and then search for other wines that are fruity, rich, or any other words in the description. That would give you a great starting point to find other great "College" wines.
+
+-Justin Minsk, 
+justin.minsk@gmail.com
