@@ -114,7 +114,9 @@ sns.distplot(USwine['Points by Price'], kde=False);
 Here are the top ten "College" wines.
 
 The one I would try on this list would be the Gallo Family Vineyard Cabernet Sauvignon which is number three on our list.
+
 <img src="https://www.drinkupessex.uk/wp-content/uploads/2015/07/gallo-family-vineyards-cabernet-sauvignon-red-wine.jpg" width=400 height=400 />
+
 Which comes from California, but not from a normal wine region in California. It is also a grand total of 5 USD, cheap and it has a score of 85 which even off a ten point scale is a B.
 
 ```pyton
@@ -126,6 +128,7 @@ sorted_US.head(10)
 
 Looking at the top ten wines you can see that it favors the lower point wines more than I though so here is the top ten wines 90 or higher. 
 My pick from the list would be the Arbor Crest Sauvignon Blanc at number 4 on this list.
+
 <img src="https://thewashingtonvine.files.wordpress.com/2012/08/img_1899.jpg" width=200 height=200 />
 
 This can be found a Washington State which I am now seeing seems to be a larger wine producer in the US then I thought. This wine is still only 8 USD, still cheap and has a score of 91 or an A on a ten point scale.
@@ -146,7 +149,9 @@ Just in case you want to get some fancy "College" wine here are the top ten wine
 <img src="https://cdn.nexternal.com/nhj/images/2015RieslingBacchusNV.jpg" width="200" height="400" />
 
 Here is the wine you would be looking for and with this table you can find wine region which is the Columbia Valley which a map of that region is this,
+
 <img src="http://winefolly.wpengine.netdna-cdn.com/wp-content/uploads/2017/02/USA-Washington-Wine-Map-Wine-Folly.jpg" width="500" height="500" />
+
 This wine is starting to be more on the expensive side with a 20 USD price tag, but with a 95 score it is a strong A.
 
 ```python
